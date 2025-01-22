@@ -59,11 +59,11 @@ Certifique-se de ter os seguintes softwares instalados no seu sistema:
    npm install
 
 
-4. Instale as dependências do Python (caso ainda não tenha o pylint instalado):
+4. Instale as dependências do Python e JavaScript (caso ainda não tenha o pylint nem o eslint instalado):
 
    ```bash
    pip install pylint
-
+   npm install eslint
 
 Como Usar
 
