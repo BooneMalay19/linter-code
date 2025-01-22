@@ -7,7 +7,9 @@ Este é um projeto de configuração e integração de linters para as linguagen
 A estrutura do projeto é a seguinte:
 
 Linter-Code/ 
+
 │ 
+
 ├── node_modules/            # Dependências do Node.js 
 
 ├── src/ 
