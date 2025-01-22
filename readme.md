@@ -7,16 +7,27 @@ Este é um projeto de configuração e integração de linters para as linguagen
 A estrutura do projeto é a seguinte:
 
 Linter-Code/ 
+
 │ 
+
 ├── node_modules/            # Dependências do Node.js 
+
 ├── src/ 
+
 │   ├── python/              # Código Python 
+
 │   └── javascript/          # Código JavaScript 
+
 ├── .github/                 # Arquivos de configuração do GitHub Actions 
+
 ├── .pylintrc                # Configuração do pylint para Python 
+
 ├── eslint.config.mjs        # Configuração do eslint para JavaScript 
+
 ├── package-lock.json        # Bloqueio das versões do npm 
+
 ├── package.json             # Arquivo de dependências e scripts do npm 
+
 └── README.md                # Este arquivo de documentação
 
 ## Instalação
@@ -60,7 +71,6 @@ Linter para Python
 
 Para rodar o linter Python, execute o seguinte comando:
 
-    ```bash
     python -m pylint src/python
 
 Ou, se você preferir rodar via npm:
