@@ -7,27 +7,16 @@ Este é um projeto de configuração e integração de linters para as linguagen
 A estrutura do projeto é a seguinte:
 
 Linter-Code/ 
-
 │ 
-
 ├── node_modules/            # Dependências do Node.js 
-
 ├── src/ 
-
 │   ├── python/              # Código Python 
-
 │   └── javascript/          # Código JavaScript 
-
 ├── .github/                 # Arquivos de configuração do GitHub Actions 
-
 ├── .pylintrc                # Configuração do pylint para Python 
-
 ├── eslint.config.mjs        # Configuração do eslint para JavaScript 
-
 ├── package-lock.json        # Bloqueio das versões do npm 
-
 ├── package.json             # Arquivo de dependências e scripts do npm 
-
 └── README.md                # Este arquivo de documentação
 
 ## Instalação
@@ -45,7 +34,7 @@ Certifique-se de ter os seguintes softwares instalados no seu sistema:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/linter-code.git
+   git clone https://github.com/BooneMalay19/linter-code.git
 
 2. Navegue para o diretório do projeto:
    
