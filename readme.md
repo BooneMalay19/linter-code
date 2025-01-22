@@ -9,14 +9,23 @@ A estrutura do projeto é a seguinte:
 Linter-Code/ 
 │ 
 ├── node_modules/            # Dependências do Node.js 
+
 ├── src/ 
+
 │   ├── python/              # Código Python 
+
 │   └── javascript/          # Código JavaScript 
+
 ├── .github/                 # Arquivos de configuração do GitHub Actions 
+
 ├── .pylintrc                # Configuração do pylint para Python 
-├── eslint.config.mjs        # Configuração do eslint para JavaScript 
+
+├── eslint.config.mjs        # Configuração do eslint para JavaScript
+
 ├── package-lock.json        # Bloqueio das versões do npm 
+
 ├── package.json             # Arquivo de dependências e scripts do npm 
+
 └── README.md                # Este arquivo de documentação
 
 ## Instalação
