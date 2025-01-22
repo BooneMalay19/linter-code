@@ -6,7 +6,18 @@ Este é um projeto de configuração e integração de linters para as linguagen
 
 A estrutura do projeto é a seguinte:
 
-Linter-Code/ │ ├── node_modules/            # Dependências do Node.js ├── src/ │   ├── python/              # Código Python │   └── javascript/          # Código JavaScript ├── .github/                 # Arquivos de configuração do GitHub Actions ├── .pylintrc                # Configuração do pylint para Python ├── eslint.config.mjs        # Configuração do eslint para JavaScript ├── package-lock.json        # Bloqueio das versões do npm ├── package.json             # Arquivo de dependências e scripts do npm └── README.md                # Este arquivo de documentação
+Linter-Code/ 
+│ 
+├── node_modules/            # Dependências do Node.js 
+├── src/ 
+│   ├── python/              # Código Python 
+│   └── javascript/          # Código JavaScript 
+├── .github/                 # Arquivos de configuração do GitHub Actions 
+├── .pylintrc                # Configuração do pylint para Python 
+├── eslint.config.mjs        # Configuração do eslint para JavaScript 
+├── package-lock.json        # Bloqueio das versões do npm 
+├── package.json             # Arquivo de dependências e scripts do npm 
+└── README.md                # Este arquivo de documentação
 
 ## Instalação
 
@@ -26,19 +37,21 @@ Certifique-se de ter os seguintes softwares instalados no seu sistema:
    git clone https://github.com/seu-usuario/linter-code.git
 
 2. Navegue para o diretório do projeto:
-
-cd linter-code
+   
+   ```bash
+   cd linter-code
 
 
 3. Instale as dependências:
 
-npm install
+   ```bash
+   npm install
 
 
 4. Instale as dependências do Python (caso ainda não tenha o pylint instalado):
 
-pip install pylint
-
+   ```bash
+   pip install pylint
 
 
 Como Usar
@@ -47,21 +60,22 @@ Linter para Python
 
 Para rodar o linter Python, execute o seguinte comando:
 
-python -m pylint src/python
+    ```bash
+    python -m pylint src/python
 
 Ou, se você preferir rodar via npm:
 
-npm run lint:python
+    npm run lint:python
 
 Linter para JavaScript
 
 Para rodar o linter JavaScript, execute o seguinte comando:
 
-npx eslint src/javascript
+    npx eslint src/javascript
 
 Ou, se você preferir rodar via npm:
 
-npm run lint:javascript
+    npm run lint:javascript
 
 O ESLint será executado conforme a configuração do arquivo eslint.config.mjs, que define as regras de linting para o JavaScript.
 
